@@ -1,22 +1,79 @@
 .wrapper-h{
-    width: 1150px;
-    
-    margin: auto;
-    padding: 5px 0 6px 0;
-    border-bottom: #dadada solid 1px;
-    
-    display: block;
+    padding: 5px 0 6px;
+    box-shadow: 0px 1px 1px rgb(0 0 0/12%);
 }
 .nav-wrapper{
-    display: flex;
+    width: 1170px;
     padding: 0px 10px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
-.logo-h{
+// Left menu
+.left-menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
+}
+.left-menu a{
+    margin-right: 16px;
 }
 .logo-he{
-    
-    height: 50%;
+    height: 32px;
+    object-fit: fill;
+    margin: 6px 18px 2px 0;
+    cursor: pointer;
+}
+.ic-new{
+    padding-top: 6px;
+    background-color: transparent;  
+}
+.ic-more{
+    padding-bottom: 4px;
     
 }
+// Search
 
+.search-box{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 16px 0 0;
+    background-color: rgba(0, 0, 0, 0.05);
+       
+}
+ .search-box input{
+    background-color: transparent;
+ }
+ .search-box button img{
+    width: 18px;
+ }
+ .search-box button{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+ }
+// Right menu
+ .right-menu{
+    display: flex;
+    align-items: center;
+ }
+ .ic-store{
+    width: 24px;
+ }
+ .ic-upload{
+    width: 28px;
+ }
+
+ .line{
+    width: 0.5px;
+    height: 24px;
+    background-color: #00000033;
+    margin-right: 16px;
+ }
+
+ 

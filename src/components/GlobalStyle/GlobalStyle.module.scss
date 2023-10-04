@@ -1,5 +1,5 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+
 :root{
     --primary:#2daaed;
 }   
@@ -7,14 +7,41 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
+    
 }
 
 html{
     font-size: 62.5%;
 }
 
-body{
-    font-family: 'Nunito', sans-serif;
+body, span{
+    font-family: 'NhacCuaTui', sans-serif;
     font-size: 1.6rem;
+    
+}
+input:focus {
+    outline: none;
+ }
+input::placeholder{
+    font-family: 'NhacCuaTui', sans-serif;
+    font-size: 1.2rem;
+}
+
+// Fonts 
+@font-face {
+    font-family: NhacCuaTui;
+    src: url('../../assets/fonts/NhacCuaTui-Bold.woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: NhacCuaTui;
+    src: url('../../assets/fonts/NhacCuaTui-Medium.woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: NhacCuaTui;
+    src: url('../../assets/fonts/NhacCuaTui-Regular.woff');
+    font-weight: 400;
 }
 
