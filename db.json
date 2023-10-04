@@ -1,0 +1,337 @@
+{
+  "Product": [
+    {
+      "id": 1,
+      "title": "Senorita",
+      "lyric": "I love it when you call me senorita...",
+      "author": "Camila Cabello",
+      "category": "US-UK"
+    },
+    {
+      "id": 2,
+      "title": "Thích em hơi nhiều",
+      "lyric": "Biết là mình thích nhau, còn chuyện trăm năm thôi để tính sau...",
+      "author": "WREN EVANS",
+      "category": "Nhạc trẻ"
+    },
+    {
+      "id": 3,
+      "title": "Sầu tím thiệp hồng",
+      "lyric": "Từ lúc quen nhau chưa nói một lời gì...",
+      "author": "Quang Lê",
+      "category": "Bolero"
+    },
+    {
+      "title": "Lệ Lưu Ly",
+      "lyric": "Em có gì đâu ngoài vết thương sâu",
+      "author": "Vũ Phụng Tiên",
+      "category": "Nhạc trẻ",
+      "id": 4
+    },
+    {
+      "title": "Khi cơn mơ dần phai",
+      "lyric": "Mọi đau đớn người tự vượt qua thôi",
+      "author": "Tez",
+      "category": "Nhạc rap",
+      "id": 5
+    },
+    {
+      "title": "Suýt nữa thì",
+      "lyric": "Suýt nữa thì, anh có thể nói vô vàn điều muốn nói",
+      "author": "Andiez",
+      "category": "Nhạc Trữ tình",
+      "id": 6
+    },
+    {
+      "title": "Hồng Nhan",
+      "lyric": "Và dòng thư tay anh gửi trao em ngày nào",
+      "author": "Jack",
+      "category": "Nhạc Trẻ",
+      "id": 7
+    },
+    {
+      "title": "Bạc Phận",
+      "lyric": "Ai gieo tình này ai mang tình này ...",
+      "author": "Jack",
+      "category": "Nhạc Trẻ",
+      "id": 8
+    },
+    {
+      "title": "Yêu một người có lẽ",
+      "lyric": "Giả vờ như tất cả mọi thứ chưa xảy ra với anh",
+      "author": "Lou Hoàng - Miu Lê",
+      "category": "Nhạc Trẻ",
+      "id": 9
+    },
+    {
+      "title": "Người Tôi Yêu",
+      "lyric": "Bao năm trôi qua chỉ thêm buốt giá con tim",
+      "author": "Chi Dân",
+      "category": "Nhạc Trẻ",
+      "id": 10
+    }
+  ],
+  "Author": [
+    {
+      "id": 1,
+      "name": "Quang Lê",
+      "description": "sinh năm: 1975, Quê: Thái Bình"
+    },
+    {
+      "id": 2,
+      "name": "WREN EVANS",
+      "description": "sinh năm: 1998, Quê: Hải Phòng"
+    },
+    {
+      "id": 3,
+      "name": "Camila, Cabello",
+      "description": "sinh năm: 1996, Quê: California"
+    }
+  ],
+  "Category":[
+    {
+        "id": 1,
+      "title": "Playlist",
+      "description": "Playlist"
+    },
+    {
+        "id": 2,
+      "title": "Collection",
+      "description": "Tuyển Tập"
+    },
+    {
+        "id": 3,
+      "title": "The Song",
+      "description": "Bài hát"
+    },
+    {
+        "id": 4,
+      "title": "Video",
+      "description": "Video"
+    },
+    {
+        "id": 5,
+      "title": "Bảng xếp hạng",
+      "description": "BXH"
+    },
+    {
+        "id": 1,
+      "title": "Top 100",
+      "description": "Top 100"
+    },
+    {
+        "id": 1,
+      "title": "More",
+      "description": "..."
+    }
+  ],
+  "Playlist": [
+    {
+      "id": 1,
+      "title": "Nhạc trẻ",
+      "description": "Nhạc trẻ mới nhất",
+      "country": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "title": "Pop",
+      "description": "Nhạc nước ngoài - Âu Mỹ",
+      "country": "Âu Mỹ"
+    },
+    {
+      "id": 3,
+      "title": "Bolero",
+      "description": "Nhạc trữ tình 8x",
+      "country": "Việt Nam"
+    },
+    {
+      "title": "Trữ Tình",
+      "description": "Nhạc Trữ Tình",
+      "country": "Việt Nam",
+      "id": 4
+    },
+    {
+      "title": "Remix Việt",
+      "description": "Nhạc Remix VN",
+      "country": "Việt Nam",
+      "id": 5
+    },
+    {
+      "title": "Rap Việt",
+      "description": "Nhạc Rap VN",
+      "country": "Việt Nam",
+      "id": 6
+    },
+    {
+      "title": "Tiền Chiến",
+      "description": "Nhạc Tiền Chiến",
+      "country": "Việt Nam",
+      "id": 7
+    },
+    {
+      "title": "Nhạc Trịnh",
+      "description": "Nhạc Trịnh Công Sơn",
+      "country": "Việt Nam",
+      "id": 8
+    },
+    {
+      "title": "Rock Việt",
+      "description": "Nhạc Rock VN",
+      "country": "Việt Nam",
+      "id": 9
+    },
+    {
+      "title": "Cách Mạng",
+      "description": "Nhạc Cách Mạng",
+      "country": "Việt Nam",
+      "id": 10
+    },
+    {
+      "title": "Pop",
+      "description": "Nhạc Pop US-UK",
+      "country": "Âu Mỹ",
+      "id": 11
+    },
+    {
+      "title": "Rock",
+      "description": "Nhạc Rock US-UK",
+      "country": "Âu Mỹ",
+      "id": 12
+    },
+    {
+      "title": "Electronica/Dance",
+      "description": "Nhạc Electronica/Dance US-UK",
+      "country": "Âu Mỹ",
+      "id": 13
+    },
+    {
+      "title": "R&B/HipHop/Rap",
+      "description": "Nhạc R&B/HipHop/Rap US-UK",
+      "country": "Âu Mỹ",
+      "id": 14
+    },
+    {
+      "title": "Blues/Jazz",
+      "description": "Nhạc Blues/Jazz US-UK",
+      "country": "Âu Mỹ",
+      "id": 15
+    },
+    {
+      "title": "Country",
+      "description": "Nhạc Country US-UK",
+      "country": "Âu Mỹ",
+      "id": 16
+    },
+    {
+      "title": "Latin",
+      "description": "Nhạc Latin US-UK",
+      "country": "Âu Mỹ",
+      "id": 17
+    },
+    {
+      "title": "Indie",
+      "description": "Nhạc Indie US-UK",
+      "country": "Âu Mỹ",
+      "id": 18
+    },
+    {
+      "title": "Âu Mỹ khác",
+      "description": "Nhạc US-UK khác",
+      "country": "Âu Mỹ",
+      "id": 19
+    },
+    {
+      "title": "Nhạc Hàn",
+      "description": "Nhạc Hàn Quốc",
+      "country": "Châu Á",
+      "id": 20
+    },
+    {
+      "title": "Nhạc Hoa",
+      "description": "Nhạc Trung Quốc",
+      "country": "Châu Á",
+      "id": 21
+    },
+    {
+      "title": "Nhạc Nhật",
+      "description": "Nhạc Nhật Bản",
+      "country": "Châu Á",
+      "id": 22
+    },
+    {
+      "title": "Nhạc Thái",
+      "description": "Nhạc Thái Lan",
+      "country": "Châu Á",
+      "id": 23
+    },
+    {
+      "title": "Thiếu nhi",
+      "description": "Nhạc Thiếu nhi",
+      "country": "Khác",
+      "id": 24
+    },
+    {
+      "title": "Không lời",
+      "description": "Nhạc Không lời",
+      "country": "Khác",
+      "id": 25
+    },
+    {
+      "title": "Nhạc Phim",
+      "description": "Nhạc Phim",
+      "country": "Khác",
+      "id": 26
+    },
+    {
+      "title": "Thể loại khác",
+      "description": "Các thể loại khác",
+      "country": "Khác",
+      "id": 27
+    }
+  ],
+  "Country": [
+    {
+      "id": 1,
+      "name": "Việt Nam",
+      "description": "Nhạc Việt Nam"
+    },
+    {
+      "id": 2,
+      "title": "Âu Mỹ",
+      "description": "Nhạc nước ngoài - Âu Mỹ"
+    },
+    {
+      "id": 3,
+      "title": "Châu Á",
+      "description": "Nhạc Châu Á"
+    },
+    {
+      "id": 4,
+      "title": "Khác",
+      "description": "Nhạc thể loại khác"
+    }
+  ],
+  "User": [
+    {
+      "id": 1,
+      "userName": "thanhduy",
+      "fullName": "Nguyen Thanh Duy",
+      "description": "4/2/2001 - Cần Thơ",
+      "state": "Nomal"
+    },
+    {
+      "id": 2,
+      "userName": "dangkhoi",
+      "fullName": "Trần Đăng Khôi",
+      "description": "25/9/2003 - Quảng Nam",
+      "state": "Sliver"
+    },
+    {
+      "id": 3,
+      "userName": "kimxuan",
+      "fullName": "Vũ Thị Kim Xuân",
+      "description": "8/5/2005 - Long An",
+      "state": "Gold"
+    }
+  ]
+}
