@@ -1,17 +1,17 @@
 import classNames from "classnames/bind";
 import styles from "./Menu.module.scss";
-import { json } from "react-router-dom";
+
 
 const cs = classNames.bind(styles);
 
-const handleRenderMenu = () => {
+// const handleRenderMenu = () => {
     
-    fetch("http://localhost:8000/Category")
-        .then((res)=>res.json())
-        .then((res)=>{
-            console.log(res);
-        })
-}
+//     fetch("http://localhost:8000/Category")
+//         .then((res)=>res.json())
+//         .then((res)=>{
+//             console.log(res);
+//         })
+// }
 
 
 function Menu() {

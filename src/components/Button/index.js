@@ -6,7 +6,6 @@ const cs = classNames.bind(styles);
 
 
 function Button({to, href, primary, preprimary, children,upload, onClick,}) {
-    console.log(children);
     let Comp = 'button';
 
     const classes = cs('wrapper',{

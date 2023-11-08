@@ -17,6 +17,8 @@ function Header() {
                     <img className={cs('logo-he')} src={images.logo} alt='logo'/>
                     <a className={cs('new-version')} href='/'><img className={cs('ic-new')} src={images.icNew} alt='ic new'/></a>
                     <Tippy content="Bài Hát" delay={[1000,1000]}
+                        
+
                         render={attrs =>(
                             <Menu />
                         )}
