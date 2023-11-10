@@ -91,8 +91,8 @@
   "Category": [
     {
       "id": 1,
-      "title": "The Song",
-      "description": "Bài hát"
+      "title": "TheSong",
+      "description": "Bài Hát"
     },
     {
       "id": 2,
@@ -111,12 +111,12 @@
     },
     {
       "id": 5,
-      "title": "Bảng xếp hạng",
+      "title": "Rank",
       "description": "BXH"
     },
     {
       "id": 6,
-      "title": "Top 100",
+      "title": "Top100",
       "description": "Top 100"
     },
     {
@@ -126,6 +126,194 @@
     }
   ],
   "Playlist": [
+    {
+      "idM": 1,
+      "titleM":"Việt Nam",
+      "datasM":[
+        {
+          "id": 1,
+          "title": "Nhạc trẻ",
+          "description": "Nhạc trẻ mới nhất",
+          "country": "Việt Nam"
+        },
+        {
+          "id": 2,
+          "title": "Pop VN",
+          "description": "Nhạc Pop Việt Nam",
+          "country": "Việt Nam"
+        },
+        {
+          "id": 3,
+          "title": "Bolero",
+          "description": "Nhạc trữ tình 8x",
+          "country": "Việt Nam"
+        },
+        {
+          "title": "Trữ Tình",
+          "description": "Nhạc Trữ Tình",
+          "country": "Việt Nam",
+          "id": 4
+        },
+        {
+          "title": "Remix Việt",
+          "description": "Nhạc Remix VN",
+          "country": "Việt Nam",
+          "id": 5
+        },
+        {
+          "title": "Rap Việt",
+          "description": "Nhạc Rap VN",
+          "country": "Việt Nam",
+          "id": 6
+        },
+        {
+          "title": "Tiền Chiến",
+          "description": "Nhạc Tiền Chiến",
+          "country": "Việt Nam",
+          "id": 7
+        },
+        {
+          "title": "Nhạc Trịnh",
+          "description": "Nhạc Trịnh Công Sơn",
+          "country": "Việt Nam",
+          "id": 8
+        },
+        {
+          "title": "Rock Việt",
+          "description": "Nhạc Rock VN",
+          "country": "Việt Nam",
+          "id": 9
+        },
+        {
+          "title": "Cách Mạng",
+          "description": "Nhạc Cách Mạng",
+          "country": "Việt Nam",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "idM": 2,
+      "titleM":"Âu Mỹ",
+      "datasM":[
+        {
+          "title": "Pop",
+          "description": "Nhạc Pop US-UK",
+          "country": "Âu Mỹ",
+          "id": 11
+        },
+        {
+          "title": "Rock",
+          "description": "Nhạc Rock US-UK",
+          "country": "Âu Mỹ",
+          "id": 12
+        },
+        {
+          "title": "Electronica/Dance",
+          "description": "Nhạc Electronica/Dance US-UK",
+          "country": "Âu Mỹ",
+          "id": 13
+        },
+        {
+          "title": "R&B/HipHop/Rap",
+          "description": "Nhạc R&B/HipHop/Rap US-UK",
+          "country": "Âu Mỹ",
+          "id": 14
+        },
+        {
+          "title": "Blues/Jazz",
+          "description": "Nhạc Blues/Jazz US-UK",
+          "country": "Âu Mỹ",
+          "id": 15
+        },
+        {
+          "title": "Country",
+          "description": "Nhạc Country US-UK",
+          "country": "Âu Mỹ",
+          "id": 16
+        },
+        {
+          "title": "Latin",
+          "description": "Nhạc Latin US-UK",
+          "country": "Âu Mỹ",
+          "id": 17
+        },
+        {
+          "title": "Indie",
+          "description": "Nhạc Indie US-UK",
+          "country": "Âu Mỹ",
+          "id": 18
+        },
+        {
+          "title": "Âu Mỹ khác",
+          "description": "Nhạc US-UK khác",
+          "country": "Âu Mỹ",
+          "id": 19
+        }
+      ]
+    },
+    {
+      "idM": 3,
+      "titleM":"Châu Á",
+      "datasM":[
+        {
+          "title": "Nhạc Hàn",
+          "description": "Nhạc Hàn Quốc",
+          "country": "Châu Á",
+          "id": 20
+        },
+        {
+          "title": "Nhạc Hoa",
+          "description": "Nhạc Trung Quốc",
+          "country": "Châu Á",
+          "id": 21
+        },
+        {
+          "title": "Nhạc Nhật",
+          "description": "Nhạc Nhật Bản",
+          "country": "Châu Á",
+          "id": 22
+        },
+        {
+          "title": "Nhạc Thái",
+          "description": "Nhạc Thái Lan",
+          "country": "Châu Á",
+          "id": 23
+        }
+      ]
+    },
+    {
+      "idM": 4,
+      "titleM":"Khác",
+      "datasM":[
+        {
+          "title": "Thiếu nhi",
+          "description": "Nhạc Thiếu nhi",
+          "country": "Khác",
+          "id": 24
+        },
+        {
+          "title": "Không lời",
+          "description": "Nhạc Không lời",
+          "country": "Khác",
+          "id": 25
+        },
+        {
+          "title": "Nhạc Phim",
+          "description": "Nhạc Phim",
+          "country": "Khác",
+          "id": 26
+        },
+        {
+          "title": "Thể loại khác",
+          "description": "Các thể loại khác",
+          "country": "Khác",
+          "id": 27
+        }
+      ]
+    } 
+  ],
+  "TheSong": [
     {
       "id": 1,
       "title": "Nhạc trẻ",
@@ -289,6 +477,393 @@
       "id": 27
     }
   ],
+  "Collection": [
+    {
+      "id": 1,
+      "title": "Nhạc trẻ",
+      "description": "Nhạc trẻ mới nhất",
+      "country": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "title": "Pop",
+      "description": "Nhạc nước ngoài - Âu Mỹ",
+      "country": "Âu Mỹ"
+    },
+    {
+      "id": 3,
+      "title": "Bolero",
+      "description": "Nhạc trữ tình 8x",
+      "country": "Việt Nam"
+    },
+    {
+      "title": "Trữ Tình",
+      "description": "Nhạc Trữ Tình",
+      "country": "Việt Nam",
+      "id": 4
+    },
+    {
+      "title": "Remix Việt",
+      "description": "Nhạc Remix VN",
+      "country": "Việt Nam",
+      "id": 5
+    },
+    {
+      "title": "Rap Việt",
+      "description": "Nhạc Rap VN",
+      "country": "Việt Nam",
+      "id": 6
+    },
+    {
+      "title": "Tiền Chiến",
+      "description": "Nhạc Tiền Chiến",
+      "country": "Việt Nam",
+      "id": 7
+    },
+    {
+      "title": "Nhạc Trịnh",
+      "description": "Nhạc Trịnh Công Sơn",
+      "country": "Việt Nam",
+      "id": 8
+    },
+    {
+      "title": "Rock Việt",
+      "description": "Nhạc Rock VN",
+      "country": "Việt Nam",
+      "id": 9
+    },
+    {
+      "title": "Cách Mạng",
+      "description": "Nhạc Cách Mạng",
+      "country": "Việt Nam",
+      "id": 10
+    },
+    {
+      "title": "Pop",
+      "description": "Nhạc Pop US-UK",
+      "country": "Âu Mỹ",
+      "id": 11
+    },
+    {
+      "title": "Rock",
+      "description": "Nhạc Rock US-UK",
+      "country": "Âu Mỹ",
+      "id": 12
+    },
+    {
+      "title": "Electronica/Dance",
+      "description": "Nhạc Electronica/Dance US-UK",
+      "country": "Âu Mỹ",
+      "id": 13
+    },
+    {
+      "title": "R&B/HipHop/Rap",
+      "description": "Nhạc R&B/HipHop/Rap US-UK",
+      "country": "Âu Mỹ",
+      "id": 14
+    },
+    {
+      "title": "Blues/Jazz",
+      "description": "Nhạc Blues/Jazz US-UK",
+      "country": "Âu Mỹ",
+      "id": 15
+    },
+    {
+      "title": "Country",
+      "description": "Nhạc Country US-UK",
+      "country": "Âu Mỹ",
+      "id": 16
+    },
+    {
+      "title": "Latin",
+      "description": "Nhạc Latin US-UK",
+      "country": "Âu Mỹ",
+      "id": 17
+    },
+    {
+      "title": "Indie",
+      "description": "Nhạc Indie US-UK",
+      "country": "Âu Mỹ",
+      "id": 18
+    },
+    {
+      "title": "Âu Mỹ khác",
+      "description": "Nhạc US-UK khác",
+      "country": "Âu Mỹ",
+      "id": 19
+    },
+    {
+      "title": "Nhạc Hàn",
+      "description": "Nhạc Hàn Quốc",
+      "country": "Châu Á",
+      "id": 20
+    },
+    {
+      "title": "Nhạc Hoa",
+      "description": "Nhạc Trung Quốc",
+      "country": "Châu Á",
+      "id": 21
+    },
+    {
+      "title": "Nhạc Nhật",
+      "description": "Nhạc Nhật Bản",
+      "country": "Châu Á",
+      "id": 22
+    },
+    {
+      "title": "Nhạc Thái",
+      "description": "Nhạc Thái Lan",
+      "country": "Châu Á",
+      "id": 23
+    },
+    {
+      "title": "Thiếu nhi",
+      "description": "Nhạc Thiếu nhi",
+      "country": "Khác",
+      "id": 24
+    },
+    {
+      "title": "Không lời",
+      "description": "Nhạc Không lời",
+      "country": "Khác",
+      "id": 25
+    },
+    {
+      "title": "Nhạc Phim",
+      "description": "Nhạc Phim",
+      "country": "Khác",
+      "id": 26
+    },
+    {
+      "title": "Thể loại khác",
+      "description": "Các thể loại khác",
+      "country": "Khác",
+      "id": 27
+    }
+  ],
+  "Video": [
+    {
+      "id": 1,
+      "title": "Nhạc trẻ",
+      "description": "Nhạc trẻ mới nhất",
+      "country": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "title": "Pop",
+      "description": "Nhạc nước ngoài - Âu Mỹ",
+      "country": "Âu Mỹ"
+    },
+    {
+      "id": 3,
+      "title": "Bolero",
+      "description": "Nhạc trữ tình 8x",
+      "country": "Việt Nam"
+    },
+    {
+      "title": "Trữ Tình",
+      "description": "Nhạc Trữ Tình",
+      "country": "Việt Nam",
+      "id": 4
+    },
+    {
+      "title": "Remix Việt",
+      "description": "Nhạc Remix VN",
+      "country": "Việt Nam",
+      "id": 5
+    },
+    {
+      "title": "Rap Việt",
+      "description": "Nhạc Rap VN",
+      "country": "Việt Nam",
+      "id": 6
+    },
+    {
+      "title": "Tiền Chiến",
+      "description": "Nhạc Tiền Chiến",
+      "country": "Việt Nam",
+      "id": 7
+    },
+    {
+      "title": "Nhạc Trịnh",
+      "description": "Nhạc Trịnh Công Sơn",
+      "country": "Việt Nam",
+      "id": 8
+    },
+    {
+      "title": "Rock Việt",
+      "description": "Nhạc Rock VN",
+      "country": "Việt Nam",
+      "id": 9
+    },
+    {
+      "title": "Cách Mạng",
+      "description": "Nhạc Cách Mạng",
+      "country": "Việt Nam",
+      "id": 10
+    },
+    {
+      "title": "Pop",
+      "description": "Nhạc Pop US-UK",
+      "country": "Âu Mỹ",
+      "id": 11
+    },
+    {
+      "title": "Rock",
+      "description": "Nhạc Rock US-UK",
+      "country": "Âu Mỹ",
+      "id": 12
+    },
+    {
+      "title": "Electronica/Dance",
+      "description": "Nhạc Electronica/Dance US-UK",
+      "country": "Âu Mỹ",
+      "id": 13
+    },
+    {
+      "title": "R&B/HipHop/Rap",
+      "description": "Nhạc R&B/HipHop/Rap US-UK",
+      "country": "Âu Mỹ",
+      "id": 14
+    },
+    {
+      "title": "Blues/Jazz",
+      "description": "Nhạc Blues/Jazz US-UK",
+      "country": "Âu Mỹ",
+      "id": 15
+    },
+    {
+      "title": "Country",
+      "description": "Nhạc Country US-UK",
+      "country": "Âu Mỹ",
+      "id": 16
+    },
+    {
+      "title": "Latin",
+      "description": "Nhạc Latin US-UK",
+      "country": "Âu Mỹ",
+      "id": 17
+    },
+    {
+      "title": "Indie",
+      "description": "Nhạc Indie US-UK",
+      "country": "Âu Mỹ",
+      "id": 18
+    },
+    {
+      "title": "Âu Mỹ khác",
+      "description": "Nhạc US-UK khác",
+      "country": "Âu Mỹ",
+      "id": 19
+    },
+    {
+      "title": "Nhạc Hàn",
+      "description": "Nhạc Hàn Quốc",
+      "country": "Châu Á",
+      "id": 20
+    },
+    {
+      "title": "Nhạc Hoa",
+      "description": "Nhạc Trung Quốc",
+      "country": "Châu Á",
+      "id": 21
+    },
+    {
+      "title": "Nhạc Nhật",
+      "description": "Nhạc Nhật Bản",
+      "country": "Châu Á",
+      "id": 22
+    },
+    {
+      "title": "Nhạc Thái",
+      "description": "Nhạc Thái Lan",
+      "country": "Châu Á",
+      "id": 23
+    },
+    {
+      "title": "Thiếu nhi",
+      "description": "Nhạc Thiếu nhi",
+      "country": "Khác",
+      "id": 24
+    },
+    {
+      "title": "Không lời",
+      "description": "Nhạc Không lời",
+      "country": "Khác",
+      "id": 25
+    },
+    {
+      "title": "Nhạc Phim",
+      "description": "Nhạc Phim",
+      "country": "Khác",
+      "id": 26
+    },
+    {
+      "title": "Thể loại khác",
+      "description": "Các thể loại khác",
+      "country": "Khác",
+      "id": 27
+    }
+  ],
+  "Rank": [
+    {
+      "id": 1,
+      "title": "Việt Nam",
+      "description": "Việt Nam",
+      "country": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "title": "Âu Mỹ",
+      "description": "Âu Mỹ",
+      "country": "Âu Mỹ"
+    },
+    {
+      "id": 3,
+      "title": "Hàn Quốc",
+      "description": "Hàn Quốc",
+      "country": "Châu Á"
+    }
+  ],
+  "Top100": [
+    {
+      "id": 1,
+      "title": "Việt Nam",
+      "description": "Việt Nam",
+      "country": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "title": "Âu Mỹ",
+      "description": "Âu Mỹ",
+      "country": "Âu Mỹ"
+    },
+    {
+      "id": 3,
+      "title": "Châu Á",
+      "description": "Châu Á",
+      "country": "Châu Á"
+    },
+    {
+      "id": 4,
+      "title": "Không lời",
+      "description": "Không lời",
+      "country": "Khác"
+    }
+  ],
+  "More": [
+    {
+      "id": 1,
+      "title": "Khám Phá",
+      "description": "Khám Phá"
+    },
+    {
+      "id": 2,
+      "title": "Nghệ Sĩ",
+      "description": "Nghệ Sĩ"
+    }
+  ],
+  
   "Country": [
     {
       "id": 1,

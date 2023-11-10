@@ -1,6 +1,7 @@
 import styles from './Header.module.scss'
 import classNames from 'classnames/bind';
-import Tippy from '@tippyjs/react';
+import Tippy from '@tippyjs/react/headless';
+import { useState, useEffect } from 'react';
 
 
 import images from '../../../../assets/images';
@@ -10,16 +11,38 @@ import Menu from '../Menu';
 const cs = classNames.bind(styles)
 
 function Header() {
+    const [category, setCategory] = useState([])
+
+    useEffect(()=>{
+        fetch("http://localhost:3001/Category")
+            .then(res => res.json())
+            .then(category => {
+                setCategory(category)
+            })
+    },[])
+
     return <div className={cs('wrapper-h')}>
             <div className={cs('nav-wrapper')}>  
                 <div className={cs('left-menu')}>  
                 
                     <img className={cs('logo-he')} src={images.logo} alt='logo'/>
                     <a className={cs('new-version')} href='/'><img className={cs('ic-new')} src={images.icNew} alt='ic new'/></a>
-                    <Tippy 
-                        content="Bài Hát" 
-                        delay={[1000,1000]}
-                        
+                    {
+                        category.map((cate)=>(
+                            <Tippy     
+                                key={cate.id}
+                                render={attrs =>(
+                                    <Menu {...attrs} typeMenu={cate.title}/>
+                                )}
+                            >    
+                                <a className={cs('option-left-menu')} href='/'>    
+                                    <Button>{cate.title==="More" ? (<img className={cs('ic-more')} src={images.icMore} alt='icon more'/>) : cate.description}</Button>
+                                </a>
+                            </Tippy>
+                        ))
+                    }
+                    {/* <Tippy     
+                        delay={[500,500]}
                         render={attrs =>(
                             <Menu />
                         )}
@@ -27,37 +50,7 @@ function Header() {
                         <a className={cs('option-left-menu')} href='/'>    
                             <Button>Bài Hát</Button>
                         </a>
-                    </Tippy>
-                    <Tippy content="Playlist">    
-                        <a className={cs('option-left-menu')} href='/'>    
-                            <Button>Playlist</Button>
-                        </a>
-                    </Tippy>
-                    <Tippy content="Tuyển Tập">    
-                        <a className={cs('option-left-menu')} href='/'>    
-                            <Button>Tuyển Tập</Button>
-                        </a>
-                    </Tippy>
-                    <Tippy content="Video">    
-                        <a className={cs('option-left-menu')} href='/'>    
-                            <Button>Video</Button>
-                        </a>
-                    </Tippy>
-                    <Tippy content="BXH">    
-                        <a className={cs('option-left-menu')} href='/'>    
-                            <Button>BXH</Button>
-                        </a>
-                    </Tippy>
-                    <Tippy content="Top 100">    
-                        <a className={cs('option-left-menu')} href='/'>    
-                            <Button>Top 100</Button>
-                        </a>
-                    </Tippy>
-                    <Tippy content="Khác">    
-                        <a className={cs('option-left-menu')} href='/'>    
-                        <Button><img className={cs('ic-more')} src={images.icMore} alt='icon more'/></Button>
-                        </a>
-                    </Tippy>
+                    </Tippy> */}
                     
                 </div>
                 

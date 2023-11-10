@@ -7,31 +7,31 @@ const cs = classNames.bind(styles);
 const nametag = ["Product", "Author", "Category", "Playlist", "Country", "USer"];
 
 function Sidebar() {
-    const [mounter, setMounter] = useState(true);
-    const handleMount = () =>{
-        setMounter(!mounter);
-    }    
-    const [hss, setHss] = useState([]);
-    const [hs, setHs] = useState('');
-    const handleAdd = (nhs) =>{
-        setHss([...hss, nhs]);
-    }
+    // const [mounter, setMounter] = useState(true);
+    // const handleMount = () =>{
+    //     setMounter(!mounter);
+    // }    
+    // const [hss, setHss] = useState([]);
+    // const [hs, setHs] = useState('');
+    // const handleAdd = (nhs) =>{
+    //     setHss([...hss, nhs]);
+    // }
     
 
-    const [datas, setDatas] = useState([])
-    const [type, setType] = useState("Product")
+    // const [datas, setDatas] = useState([])
+    // const [type, setType] = useState("Product")
     
-    useEffect(()=>{
-        fetch(`http://localhost:3001/${type}`)
-            .then(res => res.json())
-            .then(datas =>{
-                setDatas(datas)
-            })
-    },[type])
+    // useEffect(()=>{
+    //     fetch(`http://localhost:3001/${type}`)
+    //         .then(res => res.json())
+    //         .then(datas =>{
+    //             setDatas(datas)
+    //         })
+    // },[type])
     
 
     return <div className={cs('f-info')}>
-        <input value={hs} onChange={e=>{setHs(e.target.value)}} />
+        {/* <input value={hs} onChange={e=>{setHs(e.target.value)}} />
         <button onClick={()=>{handleAdd(hs)}}>ADD</button>
         {mounter && <h1>hey bro</h1>}
         <button onClick={()=>{handleMount()}}>click me</button>
@@ -53,7 +53,7 @@ function Sidebar() {
                 <h3>{data.description}</h3>
                 <p>{data.title}</p>
             </div>
-        ))}
+        ))} */}
 
     </div>;
 }
