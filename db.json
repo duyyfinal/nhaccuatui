@@ -908,5 +908,31 @@
       "description": "8/5/2005 - Long An",
       "state": "Gold"
     }
+  ],
+  "Slide": [
+    {
+      "id": 1,
+      "address": "slide1",
+      "page": "Home",
+      "description": "abc"
+    },
+    {
+      "id": 2,
+      "address": "slide2",
+      "page": "Home",
+      "description": "abc"
+    },
+    {
+      "id": 3,
+      "address": "slide3",
+      "page": "Home",
+      "description": "abc"
+    },
+    {
+      "id": 4,
+      "address": "slide4",
+      "page": "Home",
+      "description": "abc"
+    }
   ]
 }

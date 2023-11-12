@@ -30,6 +30,8 @@ function Header() {
                     {
                         category.map((cate)=>(
                             <Tippy     
+                                placement='bottom'
+                                interactive
                                 key={cate.id}
                                 render={attrs =>(
                                     <Menu {...attrs} typeMenu={cate.title}/>

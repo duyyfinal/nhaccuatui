@@ -8,7 +8,6 @@ const cs = classNames.bind(styles);
 
 function Menu(typeM, ...attrs) {
     const [itemMenu, setItemMenu] = useState([])
-    // console.log(typeM.typeMenu);
 
     useEffect(()=>{
         if(typeM.typeMenu !== ""){
@@ -18,9 +17,10 @@ function Menu(typeM, ...attrs) {
                 setItemMenu(itemMenu)
             })
         }     
+        
     },[typeM.typeMenu])
-    
-    console.log(itemMenu)
+    console.log(typeM)
+    // console.log(itemMenu)
     return <div className={cs('menu-lv1')}>
         {
             

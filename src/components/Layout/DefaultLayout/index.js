@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
+import Carousel from "../components/Carousel";
 import styles from './DefaultLayout.module.scss';
 import classNames from "classnames/bind";
 
@@ -10,6 +11,7 @@ function DefaultLayout({children}) {
         <div className={cs('wrapper')}>
              <Header />
              <div className={cs('container')}>
+                <Carousel />
                 <Sidebar />
                 <div className={cs('content')}>
                     {children}
