@@ -1,10 +1,10 @@
 import classNames from "classnames/bind";
 import styles from "./Sidebar.module.scss";
-import { useState, useEffect } from "react";
+//import { useState, useEffect } from "react";
 
 const cs = classNames.bind(styles);
 
-const nametag = ["Product", "Author", "Category", "Playlist", "Country", "USer"];
+//const nametag = ["Product", "Author", "Category", "Playlist", "Country", "USer"];
 
 function Sidebar() {
     // const [mounter, setMounter] = useState(true);
@@ -54,7 +54,6 @@ function Sidebar() {
                 <p>{data.title}</p>
             </div>
         ))} */}
-
     </div>;
 }
 

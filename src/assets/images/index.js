@@ -6,5 +6,8 @@ const images = {
     icStore:require('./ic_store.png'),
     icUpload:require('./ic_upload.png'),
     slide01:require('./source_image/slide1.jpg'),
+    slide02:require('./source_image/slide2.jpg'),
+    slide03:require('./source_image/slide3.jpg'),
+    slide04:require('./source_image/slide4.jpg'),
 }
 export default images;
