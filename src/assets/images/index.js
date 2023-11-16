@@ -9,5 +9,8 @@ const images = {
     slide02:require('./source_image/slide2.jpg'),
     slide03:require('./source_image/slide3.jpg'),
     slide04:require('./source_image/slide4.jpg'),
+    nextSlide:require('./next_slider_1.png'),
+    prevSlide:require('./prev_slider_1.png'),
+    
 }
 export default images;

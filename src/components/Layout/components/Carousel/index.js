@@ -35,14 +35,9 @@ function Carousel() {
     
         return (
           <div {...props} className="custom-prevArrow" onClick={onClick}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
-            </svg>
+            <div className="wrap-btn">
+              <img src={images.prevSlide} alt="Prev Button"/>
+            </div>
           </div>
         );
       };
@@ -51,14 +46,9 @@ function Carousel() {
     
         return (
           <div {...props} className="custom-nextArrow" onClick={onClick}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
-            </svg>
+            <div className="wrap-btn">
+              <img src={images.nextSlide} alt="Next Button"/>
+            </div>
           </div>
         );
       };
@@ -71,18 +61,19 @@ function Carousel() {
         infinite: true,
         centerPadding: '160px',
         focusOnSelect: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 1,
         nextArrow: <GalleryNextArrow />,
         prevArrow: <GalleryPrevArrow />,
       };
-      return <Slider ref={sliderRef} {...settings} className={cs("wrapper-slider")}>
+      return <Slider ref={sliderRef} {...settings}>
         {
             linkImg.map((image)=>(
                 
-                <div className={cs('wrap-img')} key={image.id}>
+                <div key={image.id}>
                     <img className={cs('img-slide', 'image')} src={handleShowAddress(image.address)} alt={image.description}/>
                 </div>
+                
             ))
         }
         
