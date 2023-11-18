@@ -19,8 +19,6 @@ function Menu(typeM, ...attrs) {
         }     
         
     },[typeM.typeMenu])
-    console.log(typeM)
-    // console.log(itemMenu)
     return <div className={cs('menu-lv1')}>
         {
             

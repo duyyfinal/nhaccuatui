@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 
 import images from '../../../../assets/images';
 import Button from '../../../Button';
-import Menu from '../Menu';
+import Menu from '../../../Menu';
 
 const cs = classNames.bind(styles)
 

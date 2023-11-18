@@ -6,7 +6,7 @@ import classNames from 'classnames/bind';
 import styles from './Carousel.module.scss';
 import './Carousel.css';
 
-import images from '../../../../assets/images';
+import images from '../../assets/images';
 
 const cs = classNames.bind(styles)
 
@@ -56,12 +56,13 @@ function Carousel() {
     const settings = {
         className: 'center',
         autoplay: true,
+        autoplaySpeed: 4000,
         dots: true,
         centerMode: true,
         infinite: true,
         centerPadding: '160px',
         focusOnSelect: true,
-        speed: 1000,
+        speed: 500,
         slidesToShow: 1,
         nextArrow: <GalleryNextArrow />,
         prevArrow: <GalleryPrevArrow />,
