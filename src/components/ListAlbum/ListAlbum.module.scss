@@ -1,0 +1,40 @@
+.list-album{
+    .title-album{
+        color: #2daaed;
+        text-transform: uppercase;
+        padding: 0 20px 0 0;
+        font-weight: 300 !important;
+
+        display: block;
+        width: auto;
+        font-size: 26px;
+        line-height: 36px;
+        margin: 0 0 10px 0;
+    }
+    .block-album{
+        display: flex;
+    }
+    .item-album{
+        width: 152px;
+        margin-right: 20px;
+        padding: 0px 0px;
+        margin-bottom: 20px;
+        h3{
+            color: #000000e0;
+            line-height: 19px;
+            font-size: 15px;
+            font-weight: 300;
+            margin: 5px 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    img{
+        overflow: hidden;
+        width: 152px;
+        height: 152px;
+    }
+}
