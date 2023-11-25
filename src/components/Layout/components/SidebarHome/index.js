@@ -2,13 +2,16 @@ import classNames from "classnames/bind";
 import styles from "./SidebarHome.module.scss";
 import { useState, useEffect } from "react";
 import NhacCuatui from "nhaccuatui-api-full";
+
 import ListAlbum from "../../../ListAlbum";
+import ListVideo from "../../../ListVideo";
 
 const cs = classNames.bind(styles);
 
 function SidebarHome() {
   const [topicHome, SetTopicHome] = useState([]);
   const [newReleaseHome, SetNewReleaseHome] = useState([]);
+  const [videoHome, SetVideoHome] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -16,18 +19,19 @@ function SidebarHome() {
         const data = await NhacCuatui.getHome();
         SetTopicHome(data.topicEvent);
         SetNewReleaseHome(data.newRelease);
+        SetVideoHome(data.video);
+        console.log(data);
       } catch (error) {
         console.log("Error fetching data:", error);
+        alert("Can not call API");
       }
     };
 
     fetchData();
   }, []);
-  console.log(newReleaseHome.song);
-
+  console.log(videoHome);
   return (
     <div className={cs("main-content")}>
-      {console.log("render sidebar")}
       {topicHome.map((toppic, index) => (
         <ListAlbum
           key={index}
@@ -37,13 +41,8 @@ function SidebarHome() {
         />
       ))}
 
-      <ListAlbum
-        key={"new"}
-        titleTopic=""
-        dataTopic={[]}
-        dataNew={newReleaseHome.song}
-        type="new"
-      />
+      <ListAlbum dataNew={newReleaseHome.song} type="new" />
+      <ListVideo data={videoHome} />
     </div>
   );
 }

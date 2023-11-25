@@ -1,0 +1,44 @@
+.list-video{
+    .block-large-item{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 20px 20px 0;
+        padding: 0px 0px;
+        .large-item, img {
+            width: 410px; 
+            height: 230px;
+        }
+        .large-item{
+            margin: 0 20px 5px 0;
+        }
+    }
+    .block-small-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .normal-item{
+        height: 170px;
+        width: 195px;
+        margin: 0 20px 20px 0;
+        position: relative;
+        
+    }
+    
+    img{
+        width: 195px;
+        height: 109px;
+    }
+    span{
+        background: transparent url(https://stc-id.nixcdn.com/v11/images/transparent.png) repeat;
+        font-weight: bold;
+        color: #FFFFFF;
+        bottom: 0px;
+        right: 0px;
+        font-size: 11px;
+        padding: 0px 5px;
+        height: 16px;
+        line-height: 16px;
+        position: absolute;
+        z-index: 100;
+    }
+}
