@@ -10,6 +10,17 @@
         }
         .large-item{
             margin: 0 20px 5px 0;
+            position: relative;
+            span{
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        .info-large-item{
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+            z-index: 10;
         }
     }
     .block-small-item{
@@ -32,7 +43,7 @@
         background: transparent url(https://stc-id.nixcdn.com/v11/images/transparent.png) repeat;
         font-weight: bold;
         color: #FFFFFF;
-        bottom: 0px;
+        bottom: 61px;
         right: 0px;
         font-size: 11px;
         padding: 0px 5px;

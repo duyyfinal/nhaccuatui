@@ -31,15 +31,17 @@ function ListVideo(props) {
               index < 2 && (
                 <div key={item.key} className={cs("large-item")}>
                   <img src={item.thumbnail} alt={item.title} />
-                  <InfoItem
-                    typeItem="large-mv-hot"
-                    nameItem={item.title}
-                    artItem={item.artists.map((art, index) =>
-                      index === item.artists.length - 1
-                        ? art.name
-                        : art.name + ", "
-                    )}
-                  />
+                  <div className={cs("info-large-item")}>
+                    <InfoItem
+                      typeItem="large-mv-hot"
+                      nameItem={item.title}
+                      artItem={item.artists.map((art, index) =>
+                        index === item.artists.length - 1
+                          ? art.name
+                          : art.name + ", "
+                      )}
+                    />
+                  </div>
                   <span>{item.duration} </span>
                 </div>
               )
