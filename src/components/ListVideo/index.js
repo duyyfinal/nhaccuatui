@@ -62,7 +62,6 @@ function ListVideo(props) {
                         : art.name + ", "
                     )}
                   />
-
                   <span>{item.duration} </span>
                 </div>
               )

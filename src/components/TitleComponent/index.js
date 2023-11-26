@@ -1,6 +1,5 @@
 import classNames from "classnames/bind";
 import styles from "./TitleComponent.module.scss";
-import { useEffect, useState } from "react";
 
 const cs = classNames.bind(styles);
 
