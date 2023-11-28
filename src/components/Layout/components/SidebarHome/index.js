@@ -12,6 +12,7 @@ function SidebarHome() {
   const [newReleaseHome, SetNewReleaseHome] = useState([]);
   const [videoHome, SetVideoHome] = useState([]);
   const [songHome, setSongHome] = useState([]);
+  const [top100Home, setTop100Home] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,6 +22,7 @@ function SidebarHome() {
         SetNewReleaseHome(data.newRelease);
         SetVideoHome(data.video);
         setSongHome(data.song);
+        setTop100Home(data.top100);
         console.log(data);
       } catch (error) {
         console.log("Error fetching data:", error);
@@ -30,7 +32,7 @@ function SidebarHome() {
 
     fetchData();
   }, []);
-  console.log(videoHome);
+  console.log(top100Home);
   return (
     <div className={cs("main-content")}>
       {topicHome.map((toppic, index) => (
@@ -45,6 +47,7 @@ function SidebarHome() {
       <ListAlbum dataNew={newReleaseHome.song} type="new" />
       <ListVideo data={videoHome} />
       <ListSong data={songHome} />
+      <ListAlbum dataTop100={top100Home} type="top100" />
     </div>
   );
 }

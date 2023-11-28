@@ -3,6 +3,7 @@ import SidebarHome from "../components/SidebarHome";
 import { Carousel } from "../../Home/";
 import styles from "./DefaultLayout.module.scss";
 import classNames from "classnames/bind";
+import Footer from "../components/Footer";
 
 const cs = classNames.bind(styles);
 
@@ -20,6 +21,7 @@ function DefaultLayout({ children }) {
           <div className={cs("box-right")}></div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
