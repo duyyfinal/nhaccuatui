@@ -2,8 +2,8 @@ import classNames from "classnames/bind";
 import styles from "./ListSong.module.scss";
 import { useState, useEffect } from "react";
 
-import TitleComponent from "../TitleComponent";
-import InfoItem from "../InfoItem";
+import TitleComponent from "../../TitleComponent";
+import InfoItem from "../../InfoItem";
 
 const cs = classNames.bind(styles);
 

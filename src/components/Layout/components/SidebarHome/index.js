@@ -3,9 +3,7 @@ import styles from "./SidebarHome.module.scss";
 import { useState, useEffect } from "react";
 import NhacCuatui from "nhaccuatui-api-full";
 
-import ListAlbum from "../../../ListAlbum";
-import ListVideo from "../../../ListVideo";
-import ListSong from "../../../ListSong";
+import { ListAlbum, ListVideo, ListSong } from "../../../Home";
 
 const cs = classNames.bind(styles);
 

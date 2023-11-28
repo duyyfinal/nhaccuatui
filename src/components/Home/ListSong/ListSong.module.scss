@@ -1,11 +1,17 @@
 .list-song{
+    .block-song{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 870px;
+    }
+
     .item-song{
         width: 400px;
         margin-right: 30px;
         border-top: #ececec solid 1px;
         padding: 5px 0px;
         line-height: 24px;
-        float: left;
+        
         .info-song{
             display: flex;
             width: 300px;

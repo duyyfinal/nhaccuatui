@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import SidebarHome from "../components/SidebarHome";
-import Carousel from "../../Carousel";
+import { Carousel } from "../../Home/";
 import styles from "./DefaultLayout.module.scss";
 import classNames from "classnames/bind";
 

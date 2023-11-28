@@ -1,8 +1,8 @@
 import classNames from "classnames/bind";
 import styles from "./ListVideo.module.scss";
 import { useEffect, useState } from "react";
-import TitleComponent from "../TitleComponent";
-import InfoItem from "../InfoItem";
+import TitleComponent from "../../TitleComponent";
+import InfoItem from "../../InfoItem";
 
 const cs = classNames.bind(styles);
 
