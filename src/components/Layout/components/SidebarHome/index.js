@@ -5,6 +5,7 @@ import NhacCuatui from "nhaccuatui-api-full";
 
 import ListAlbum from "../../../ListAlbum";
 import ListVideo from "../../../ListVideo";
+import ListSong from "../../../ListSong";
 
 const cs = classNames.bind(styles);
 
@@ -12,6 +13,7 @@ function SidebarHome() {
   const [topicHome, SetTopicHome] = useState([]);
   const [newReleaseHome, SetNewReleaseHome] = useState([]);
   const [videoHome, SetVideoHome] = useState([]);
+  const [songHome, setSongHome] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -20,6 +22,7 @@ function SidebarHome() {
         SetTopicHome(data.topicEvent);
         SetNewReleaseHome(data.newRelease);
         SetVideoHome(data.video);
+        setSongHome(data.song);
         console.log(data);
       } catch (error) {
         console.log("Error fetching data:", error);
@@ -43,6 +46,7 @@ function SidebarHome() {
 
       <ListAlbum dataNew={newReleaseHome.song} type="new" />
       <ListVideo data={videoHome} />
+      <ListSong data={songHome} />
     </div>
   );
 }
