@@ -1,6 +1,6 @@
 import classNames from "classnames/bind";
 import styles from "./InfoItem.module.scss";
-import { Fragment, useEffect, useState, useRef } from "react";
+import { Fragment } from "react";
 
 const cs = classNames.bind(styles);
 

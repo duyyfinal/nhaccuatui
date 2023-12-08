@@ -1,0 +1,37 @@
+.wrap-content{
+    width: 300px;
+    height: 240px;
+    margin-bottom: 32px;
+    position: relative;
+    img{
+        width: 300px;
+        height: 240px;
+        border-radius: 4px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+    .info-content{
+        text-align: center;
+        position: relative;
+        bottom: 244px;
+        h2{
+            line-height: 1.4;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+            color: #ffffffe0;
+            padding-top: 40px;
+
+        }
+        p{
+            text-align: center;
+            font-size: 14px;
+            color: #ffffff80;
+            position: relative;
+            z-index: 2;
+            margin: 16px 17px 0px 17px;
+        }
+    }
+}

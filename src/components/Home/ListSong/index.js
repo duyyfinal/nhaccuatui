@@ -32,6 +32,7 @@ function ListSong(props) {
               <img src={item.thumbnail} alt={item.title} />
               <div className={cs("wrap-info-song")}>
                 <InfoItem
+                  typeItem={"list-song-home"}
                   nameItem={item.title}
                   artItem={item.artists.map((art, index) =>
                     index === item.artists.length - 1
